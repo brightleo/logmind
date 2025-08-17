@@ -1,0 +1,26 @@
+{
+    "ai_config": {
+    "model_type": "local",
+    "local": {
+      "base_url": "http://localhost:11434/v1",
+      "api_key": "sk-no-key-required",
+      "model_name": "qwen2"
+    },
+    "remote": {
+      "base_url": "https://api.openai.com/v1",
+      "api_key": "your-openai-api-key",
+      "model_name": "gpt-4-turbo"
+    },
+    "analysis_params": {
+      "temperature": 0.1,
+      "max_tokens": 2000
+    }
+  },
+  "proxy_config": {
+    "enabled": false,
+    "host": "",
+    "port": "",
+    "username": "",
+    "password": ""
+  }
+}
